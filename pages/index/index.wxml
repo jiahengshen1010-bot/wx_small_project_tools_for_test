@@ -1,0 +1,20 @@
+<view class="container index-page">
+  <view class="hero">
+    <text class="eyebrow">WECHAT MINI PROGRAM</text>
+    <text class="title">{{appName}}</text>
+    <text class="subtitle">一个轻量的原生小程序起点，包含页面、全局配置、样式和本地日志示例。</text>
+  </view>
+
+  <view class="panel section">
+    <text class="panel-title">计数器</text>
+    <text class="counter">{{count}}</text>
+    <view class="actions">
+      <button class="primary-button" bindtap="handleIncrement">加 1</button>
+      <button class="ghost-button" bindtap="handleReset">重置</button>
+    </view>
+  </view>
+
+  <view class="section">
+    <button class="link-button" bindtap="goToLogs">查看启动日志</button>
+  </view>
+</view>

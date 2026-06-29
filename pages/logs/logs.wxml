@@ -1,0 +1,17 @@
+<view class="container logs-page">
+  <view class="header">
+    <text class="title">启动日志</text>
+    <text class="muted">每次小程序启动都会记录一条时间。</text>
+  </view>
+
+  <view class="log-list">
+    <block wx:if="{{logs.length}}">
+      <view class="log-item" wx:for="{{logs}}" wx:key="*this">
+        <text>{{item}}</text>
+      </view>
+    </block>
+    <view class="empty" wx:else>
+      <text>暂无日志</text>
+    </view>
+  </view>
+</view>

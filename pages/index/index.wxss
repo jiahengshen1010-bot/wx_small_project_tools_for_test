@@ -1,0 +1,82 @@
+.index-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  padding: 40rpx 0 16rpx;
+}
+
+.eyebrow {
+  color: #0d9488;
+  font-size: 22rpx;
+  font-weight: 700;
+}
+
+.title {
+  color: #111827;
+  font-size: 48rpx;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #4b5563;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+.panel {
+  padding: 32rpx;
+  background: #ffffff;
+  border: 1rpx solid #e5e7eb;
+  border-radius: 8rpx;
+  box-shadow: 0 12rpx 32rpx rgba(15, 23, 42, 0.06);
+}
+
+.panel-title {
+  display: block;
+  color: #374151;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.counter {
+  display: block;
+  margin: 24rpx 0;
+  color: #0f172a;
+  font-size: 72rpx;
+  font-weight: 700;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rpx;
+}
+
+.primary-button,
+.ghost-button,
+.link-button {
+  margin: 0;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+}
+
+.primary-button {
+  color: #ffffff;
+  background: #0f766e;
+}
+
+.ghost-button {
+  color: #0f766e;
+  background: #ecfdf5;
+}
+
+.link-button {
+  color: #0f172a;
+  background: #ffffff;
+  border: 1rpx solid #d1d5db;
+}

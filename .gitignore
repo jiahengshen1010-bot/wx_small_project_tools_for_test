@@ -1,3 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
 # Compiled class file
 *.class
 
@@ -22,3 +43,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# WeChat Mini Program
+miniprogram_npm/
+miniprogram_dist/
+dist/
+build/
+coverage/
+.hbuilderx/
+project.private.config.json
+project.local.config.json
+*.wxss.map
+*.js.map
+*.wxml.map
