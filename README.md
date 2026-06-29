@@ -1,0 +1,2 @@
+# wx_small_project_tools_for_test
+first_project
